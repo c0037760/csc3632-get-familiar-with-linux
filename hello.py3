@@ -17,7 +17,7 @@ with open(output_file, "a") as output:
         print(filename)
 
         # checks if a filename is a directory
-        if os.path.isdir(os.path.join(basepath, filename) and not filename == '.git'):
+        if os.path.isdir(os.path.join(basepath, filename) and not filename == ".git"):
             print(f'filename: {filename}')
             print(f'filepath: {os.path.join(basepath, filename)}')
             readme_path = os.path.join(basepath, filename, readme)
