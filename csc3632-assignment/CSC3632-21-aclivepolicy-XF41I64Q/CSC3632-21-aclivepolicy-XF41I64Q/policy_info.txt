@@ -1,0 +1,7 @@
+
+If NZTF is True, then P evaluates to Permit;
+else if NZTF is Unknown, then P evaluates to Indeterminate(PD);
+else if both HQZR and FPDV are True, then P evaluates to Permit;
+otherwise P evaluates to Deny. 
+
+The address for the script is: http://10.0.0.6/ctf_deploy/aclivepolicy/mr0Xrrh9Wr/A.php

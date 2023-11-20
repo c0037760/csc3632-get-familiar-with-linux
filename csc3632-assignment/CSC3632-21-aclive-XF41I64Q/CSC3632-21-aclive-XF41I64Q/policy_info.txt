@@ -1,0 +1,16 @@
+The policy is:
+
+OSA: Permit if IKRA
+OSB: Deny if FSBM
+OSC: Deny if RNEN
+OSD: FA(OSA,OSB)
+OSE: OOA(OSD,OSC)
+HSA: Deny if OR(JQOU,RGRT)
+HSB: Permit if JDGU
+HSD: Deny if XVCA
+HSC: DOV(HSA,HSB)
+HSE: DOV(HSC,HSD)
+P: POV(OSE,HSE)
+
+
+The address for the script is: http://10.0.0.6/ctf_deploy/aclive/joZbIHSxkg/A.php
